@@ -1,0 +1,81 @@
+
+@font-face {font-family: "iconarea";
+  src: url('iconfont.eot?t=1498114293716'); /* IE9*/
+  src: url('iconfont.eot?t=1498114293716#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1498114293716') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1498114293716') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1498114293716#iconarea') format('svg'); /* iOS 4.1- */
+}
+
+.iconarea {
+  font-family:"iconarea" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconarea-shuaxin:before { content: "\e7fc"; }
+
+.iconarea-fanhui:before { content: "\e60b"; }
+
+.iconarea-chedaishenheweitongguo:before { content: "\e601"; }
+
+.iconarea-delete:before { content: "\e69d"; }
+
+.iconarea-monikaoshi:before { content: "\e768"; }
+
+.iconarea-wenbenbianji:before { content: "\e6d5"; }
+
+.iconarea-tingyong:before { content: "\e673"; }
+
+.iconarea-iconset0136:before { content: "\e623"; }
+
+.iconarea-shiliangzhinengduixiang901:before { content: "\e711"; }
+
+.iconarea-bianjiwenben:before { content: "\e667"; }
+
+.iconarea-ad80-copy:before { content: "\e7f7"; }
+
+.iconarea-chexiao:before { content: "\e7f9"; }
+
+.iconarea-wenben:before { content: "\e608"; }
+
+.iconarea-jilu:before { content: "\e6b0"; }
+
+.iconarea-fenxiang:before { content: "\e604"; }
+
+.iconarea-wenbenyu:before { content: "\e659"; }
+
+.iconarea-plus-import:before { content: "\e736"; }
+
+.iconarea-top_draft_ico:before { content: "\e61f"; }
+
+.iconarea-music_pause_button:before { content: "\e619"; }
+
+.iconarea-music_play_button:before { content: "\e61a"; }
+
+.iconarea-word:before { content: "\e716"; }
+
+.iconarea-excel:before { content: "\e610"; }
+
+.iconarea-TXT:before { content: "\e668"; }
+
+.iconarea-icon-p_gongzuoqingdan:before { content: "\e602"; }
+
+.iconarea-icon-p_dangqianmrpweidu:before { content: "\e603"; }
+
+.iconarea-icon-p_kucunfenxi:before { content: "\e606"; }
+
+.iconarea-icon-p_wuliaozu:before { content: "\e607"; }
+
+.iconarea-icon-p_mrpbaobiao:before { content: "\e609"; }
+
+.iconarea-icon-p_mrpjinduzhuizong:before { content: "\e60a"; }
+
+.iconarea-shouye_shouye:before { content: "\e835"; }
+
+.iconarea-word1:before { content: "\e60c"; }
+
+.iconarea-excel1:before { content: "\e617"; }
+
