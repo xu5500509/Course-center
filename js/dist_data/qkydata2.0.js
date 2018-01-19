@@ -21,7 +21,7 @@ define({
 			{name:"成长档案袋",attrcont:"href='index-grow.html'",isactive:false},
 		],//主导航条
 		
-		morebtn:true,//是否显示最左汉堡包菜单建已经是否执行更多操作
+		morebtn:fasle,//是否显示最左汉堡包菜单建以及是否执行更多操作
 		common:[//常用app
 			["电子图书馆","href='#'"],["校友家园","href='#'"],
 			["考勤管理","href='#'"],["党工团管理","href='#'"],
