@@ -13,8 +13,8 @@ body{font-family: Microsoft YaHei,"Hiragino Sans GB W3", Helvetica, Arial, sans-
 
 /*整体宽度档位提供*/
 .container-md,.container-l,.container-xl,.container-p90,.container-p80,.container-p60{
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 150px;
+  padding-left: 150px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -25,7 +25,7 @@ body{font-family: Microsoft YaHei,"Hiragino Sans GB W3", Helvetica, Arial, sans-
 .container {max-width:1080px;}
 .container-md{max-width:1200px;}
 .container-l{max-width:1366px;}
-.container-xl{max-width:1440px;}
+.container-xl{max-width:1600px;}
 
 /*底部规范*/
 .footer{ position: absolute; bottom:0; padding:15px 0; text-align:center; left:0; width:100%; background:none; color:#737373;z-index: 1001;}
@@ -598,4 +598,6 @@ ul,li{ padding:0; margin:0; list-style:none;}
 .heig-in{ max-height:160px; overflow-y:auto;}
 
 /*首页banner*/
-.idx-banner{ height:280px; width:100%;}
+.idx-banner{ height:280px;}
+.idx-intro{ border:1px dashed #a7d2fe;}
+.idx-intro.po_r h3.po_ab{ left:50%; margin-left:-220px; top:-15px;}
