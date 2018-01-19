@@ -20,7 +20,7 @@ define({
 			{name:"评价统计",attrcont:"href='01browse-ind.html'",isactive:false},
 		],//主导航条
 		
-		morebtn:true,//是否显示最左汉堡包菜单建已经是否执行更多操作
+		morebtn:false,//是否显示最左汉堡包菜单建已经是否执行更多操作
 		common:[//常用app
 			["电子图书馆","href='#'"],["校友家园","href='#'"],
 			["考勤管理","href='#'"],["党工团管理","href='#'"],
