@@ -7,7 +7,7 @@ define({
 	navdata:{/*导航数据*/
 	    htmlsrc:"mould_html/qkynav2.0.html",//头部模板获取异步地址
 		logosrc:"images/nav_logo/qky-logo.png",//logo来源路径
-		pjname:"综合素质评价",//应用名
+		pjname:"课程中心",//应用名
 		theme:"navbar-default",//主题
 		themetype:{
 			pjnameColor:"#21a2db",//应用名颜色
@@ -21,7 +21,7 @@ define({
 			{name:"成长档案袋",attrcont:"href='index-grow.html'",isactive:false},
 		],//主导航条
 		
-		morebtn:true,//是否显示最左汉堡包菜单建已经是否执行更多操作
+		morebtn:false,//是否显示最左汉堡包菜单建已经是否执行更多操作
 		common:[//常用app
 			["电子图书馆","href='#'"],["校友家园","href='#'"],
 			["考勤管理","href='#'"],["党工团管理","href='#'"],
