@@ -5,7 +5,7 @@ seajs.config({
 	  /***库引用***/
 	'jq':'jq/1.11.1/jquery',
     'bs': 'bootstrap/3.3.0/js/bootstrap.min',//引用bootstrap前端框架
-	
+
 	/***所有项目默认模块***/
     'nav': 'common_default/nav_add2.0',//引用整体头部
 	'app': 'common_default/appcenter',//引用应用中心的js模块
@@ -17,6 +17,9 @@ seajs.config({
 	'dw':'common_cadr/dropdown_havevalue',
 	'steps':'common_cadr/steps',
 	'upfile':'common_cadr/file',
+	
+	'jq10':'common_cadr/bootstrap-select/jquery-1.10.2.min',
+	'bsel':'common_cadr/bootstrap-select/bootstrap-select',
 
 	/****插件***/
 	'ci':'plug-in/cropit-master/jquery.cropit',
@@ -53,10 +56,9 @@ seajs.config({
 
 var opt={
 	navli_j:[
-			{name:"评价信息",attrcont:"href='index-sysm.html'",isactive:false},
-			{name:"数据监控",attrcont:"href='index.html'",isactive:false},
-			{name:"数据分析",attrcont:"href='index-da.html'",isactive:false},
-			{name:"成长档案袋",attrcont:"href='index-grow.html'",isactive:false},
+			{name:"首页",attrcont:"href='01index.html'",isactive:true},
+			{name:"全部课程",attrcont:"href=''",isactive:false},
+			{name:"课程管理",attrcont:"href=''",isactive:false},
 	]
 }
 
@@ -72,7 +74,7 @@ for(var i=1;i<opt.navli_j.length;i++){
 	navli_j:[],
 	appcenter_link:"appcenter.html",//应用中心页面链
 	newscenter_link:"newscenter.html",//消息中心页面链接
-	otherli:[["切换身份","href='switch_user.html'"],["账户设置","href='account_settings.html'"],["个人设置","href='#'"],["退出","href='login.html'"]],
+	otherli:[["切换身份","href='switch_user.html'"],["数据设置","href='00set-term.html'"],["账户设置","href='account_settings.html'"],["个人设置","href='#'"],["退出","href='login.html'"]],
 	newsimgsrc:"../images/appicon/",
 };
 

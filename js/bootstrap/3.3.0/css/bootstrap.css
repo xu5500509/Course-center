@@ -47,7 +47,8 @@ a {
   background-color: transparent;
 }
 a:active,
-a:hover {
+a:hover
+ {
   outline: 0;
 }
 abbr[title] {

@@ -1,6 +1,7 @@
 /*
  * My97 DatePicker 4.8 Beta4
  * License: http://www.my97.net/dp/license.asp
+  修改：yhc 2017-08-10
  */
 var $dp,WdatePicker;(function(){var $={
 $langList:[
@@ -28,7 +29,7 @@ autoUpdateOnChanged:null,
 weekMethod:"ISO8601",
 position:{},
 lang:"auto",
-skin:"default",
+skin:"blue",
 dateFmt:"yyyy-MM-dd",
 realDateFmt:"yyyy-MM-dd",
 realTimeFmt:"HH:mm:ss",
