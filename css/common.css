@@ -12,8 +12,8 @@
 .po_r{ position:relative;}
 .po_ab{ position:absolute; top:0; left:0;}
 .po_ab_r{ position:absolute; top:0; right:0}
-.kuai{ display:block;}
-.kuai_line{ display:inline-block;}
+.block {display:block;}
+.iblock{ display:inline-block;}
 .box_b{ box-sizing:border-box;}/*块元素浮动算宽度时，忽略边框和内边距*/
 .dian3{ overflow:hidden;text-overflow:ellipsis; white-space:nowrap;}/*单行文字超出显示...*/
 .ycfile{position: absolute;width: 100%;height: 100%;left: 0;top: 0;filter: alpha(opacity=0);opacity: 0;z-index: 66;cursor: pointer;}/*完全透明的上传控件*/
@@ -33,6 +33,8 @@
 .wd50{width:50%;}
 .wd80{width:80%;}
 .wd100{ width:100%;}
+.text-indent{text-indent:2em;}
+.radius-4{ border-radius:4px;}
 
 .co_a3{ color:#a3a3a3!important;}
 .co_93{ color:#939393!important;}
@@ -62,6 +64,7 @@
 .fz_80{ font-size:80px!important;}
 .fz_90{ font-size:90px!important;}
 .fz_100{ font-size:100px!important;}
+.fs_nor{font-style:normal}
 
 .mt0{ margin-top:0px!important;}
 .mt5{ margin-top:5px!important;}
@@ -70,6 +73,8 @@
 .mt15{ margin-top:15px!important;}
 .mt20{ margin-top:20px!important;}
 .mb0{ margin-bottom:0px!important;}
+.mb0{ margin-bottom:0px!important;}
+.mb1{ margin-bottom:1px!important;}
 .mb5{ margin-bottom:5px!important;}
 .mb8{ margin-bottom:8px!important;}
 .mb10{ margin-bottom:10px!important;}
@@ -97,6 +102,7 @@
 
 .pt0{ padding-top:0px!important;}
 .pt5{ padding-top:5px!important;}
+.pt9{ padding-top:9px!important;}
 .pt10{ padding-top:10px!important;}
 .pt15{ padding-top:15px!important;}
 .pt20{ padding-top:20px!important;}
@@ -115,8 +121,17 @@
 .pr10{ padding-right:10px!important;}
 .pr15{ padding-right:15px!important;}
 .pr20{ padding-right:20px!important;}
+.pr60{ padding-right:60px!important;}
 .pa0{ padding:0!important;}
 .pa5{ padding:5px!important;}
 .pa10{ padding:10px!important;}
 .pa15{ padding:15px!important;}
 .pa20{ padding:20px!important;}
+/*边线*/
+.bor-lb{ border-left:3px solid #27b0f2;}
+.bor-t{ border-top:1px solid #e7e7e7;}
+.bor-r{ border-right:1px solid #e7e7e7;}
+.bor-b{ border-bottom:1px solid #e7e7e7;}
+.bor-l{ border-left:1px solid #e7e7e7;}
+/*超出省略号*/
+.w-over{white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}

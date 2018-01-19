@@ -20,12 +20,15 @@ seajs.config({
 
 	/****插件***/
 	'ci':'plug-in/cropit-master/jquery.cropit',
-	'ec':'plug-in/echarts/3.0/echarts.common.min',//数据视图插件ec
+	'ec':'plug-in/echarts/3.0/echarts.min',//数据视图插件ec
 	'sw':'plug-in/swiper/3.4.1/js/swiper.min',//3.4轮播插件
 	'sw2':'plug-in/swiper/2.0/idangerous.swiper.min',//2.0轮播插件	
 	'datep':'plug-in/DatePicker/WdatePicker',//
 	'fvalid':'plug-in/formvalid/formValidation',//
 	'valid':'plug-in/formvalid/validator',//
+	'tree':'plug-in/treelist/tree-list',//
+	'data_v':'common_cadr/data_view',
+	'slide':'plug-in/slide/jquery.SuperSlide.2.1.1',
   },
 
   // 路径配置
@@ -50,13 +53,14 @@ seajs.config({
 
 var opt={
 	navli_j:[
-			{name:"首页",attrcont:"href='01index.html'",isactive:false},
-			{name:"全部课程",attrcont:"href=''",isactive:false},
-			{name:"课程管理",attrcont:"href=''",isactive:false},
+			{name:"评价信息",attrcont:"href='index-sysm.html'",isactive:false},
+			{name:"数据监控",attrcont:"href='index.html'",isactive:false},
+			{name:"数据分析",attrcont:"href='index-da.html'",isactive:false},
+			{name:"成长档案袋",attrcont:"href='index-grow.html'",isactive:false},
 	]
 }
 
-for(var i=0;i<opt.navli_j.length;i++){
+for(var i=1;i<opt.navli_j.length;i++){
 	opt.navli_j[i].isactive=false;
 }
 
@@ -71,3 +75,4 @@ for(var i=0;i<opt.navli_j.length;i++){
 	otherli:[["切换身份","href='switch_user.html'"],["账户设置","href='account_settings.html'"],["个人设置","href='#'"],["退出","href='login.html'"]],
 	newsimgsrc:"../images/appicon/",
 };
+

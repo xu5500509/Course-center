@@ -18,7 +18,7 @@ define(function(require) {
 	'<li class="dropdown">'+
         '<a href="#" class="dropdown-toggle clear" data-toggle="dropdown">'+
         '<span class="fl">更多</span>'+
-        '<span class="caret"></span>'+
+        '<span class="icon_area area-zhankai"></span>'+
         '</a>'+
         '<ul class="dropdown-menu maxh" role="menu" id="navmuchli"></ul>'+
      '</li>';
