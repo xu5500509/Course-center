@@ -5,9 +5,9 @@
 
 define({
 	navdata:{/*导航数据*/
-	    htmlsrc:"mould_html/qkynav2.0.html",//头部模板获取异步地址
-		logosrc:"images/nav_logo/qky-logo.png",//logo来源路径
-		pjname:"课程中心",//应用名
+	    htmlsrc:"../mould_html/qkynav2.0.html",//头部模板获取异步地址
+		logosrc:"../images/nav_logo/qky-logo.png",//logo来源路径
+		pjname:"班级评价",//应用名
 		theme:"navbar-default",//主题
 		themetype:{
 			pjnameColor:"#21a2db",//应用名颜色
@@ -15,12 +15,12 @@ define({
 		},//个性定制专属的应用名颜色和主导航选中颜色
 		distclass:["navbar", "navbar-fixed-top", "headernav"],//默认一定要用的class
 		navli_j:[
-			{name:"首页",attrcont:"href='01index.html'",isactive:true},
-			{name:"全部课程",attrcont:"href=''",isactive:false},
-			{name:"课程管理",attrcont:"href=''",isactive:false},
+			{name:"体系管理",attrcont:"href='01evalua-sys.html'",isactive:false},
+			{name:"班级评价",attrcont:"href='02eva-will.html'",isactive:false},
+			{name:"评价统计",attrcont:"href='01browse-ind.html'",isactive:false},
 		],//主导航条
 		
-		morebtn:false,//是否显示最左汉堡包菜单建已经是否执行更多操作
+		morebtn:true,//是否显示最左汉堡包菜单建已经是否执行更多操作
 		common:[//常用app
 			["电子图书馆","href='#'"],["校友家园","href='#'"],
 			["考勤管理","href='#'"],["党工团管理","href='#'"],
@@ -56,7 +56,7 @@ define({
 		
 		isinfo:true,//是否支持登录显示个人信息
 		tea_info:{"name":"张晓明","isphoto":false,"photo":"images/tx01.png"},//个人信息
-		otherli:[["切换身份","href='default_html/switch_user.html'"],["账户设置","href='default_html/account_settings.html'"],["个人设置","href='#'"],["退出","href='default_html/login.html'"]],//设置菜单
+		otherli:[["切换身份","href='default_html/switch_user.html'"],["数据设置","href='00set-term.html'"],["账户设置","href='default_html/account_settings.html'"],["个人设置","href='#'"],["退出","href='default_html/login.html'"]],//设置菜单
 
 		isnews:true,//是否显示信息铃铛
 		newsimgsrc:"images/appicon/",//应用图标的来源路径

@@ -56,9 +56,9 @@ seajs.config({
 
 var opt={
 	navli_j:[
-			{name:"首页",attrcont:"href='01index.html'",isactive:true},
-			{name:"全部课程",attrcont:"href=''",isactive:false},
-			{name:"课程管理",attrcont:"href=''",isactive:false},
+			{name:"体系管理",attrcont:"href='01evalua-sys.html'",isactive:false},
+			{name:"班级评价",attrcont:"href='02eva-will.html'",isactive:false},
+			{name:"评价统计",attrcont:"href='03statis-week.html'",isactive:false},
 	]
 }
 

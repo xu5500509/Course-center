@@ -36,6 +36,7 @@
 .text-indent{text-indent:2em;}
 .radius-4{ border-radius:4px;}
 
+.co_ff{ color:#fff!important;}
 .co_a3{ color:#a3a3a3!important;}
 .co_93{ color:#939393!important;}
 .co_83{ color:#838383!important;}
@@ -44,7 +45,6 @@
 .co_53{ color:#535353!important;}
 .co_43{ color:#434343!important;}
 .co_33{ color:#333333!important;}
-.bg_white{ background-color:#fff !important;}
 
 .fz_we{ font-weight:bold!important;}
 .fz_nwe{ font-weight:normal!important;}
@@ -73,9 +73,6 @@
 .mt10{ margin-top:10px!important;}
 .mt15{ margin-top:15px!important;}
 .mt20{ margin-top:20px!important;}
-.mt30{ margin-top:30px!important;}
-.mt40{ margin-top:40px!important;}
-.mt50{ margin-top:50px!important;}
 .mb0{ margin-bottom:0px!important;}
 .mb0{ margin-bottom:0px!important;}
 .mb1{ margin-bottom:1px!important;}
@@ -110,7 +107,6 @@
 .pt10{ padding-top:10px!important;}
 .pt15{ padding-top:15px!important;}
 .pt20{ padding-top:20px!important;}
-.pt30{ padding-top:30px!important;}
 .pb0{ padding-bottom:0px!important;}
 .pb5{ padding-bottom:5px!important;}
 .pb10{ padding-bottom:10px!important;}
