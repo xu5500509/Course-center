@@ -7,7 +7,7 @@ define({
 	navdata:{/*导航数据*/
 	    htmlsrc:"mould_html/qkynav2.0.html",//头部模板获取异步地址
 		logosrc:"images/nav_logo/qky-logo.png",//logo来源路径
-		pjname:"综合素质评价",//应用名
+		pjname:"课程中心",//应用名
 		theme:"navbar-default",//主题
 		themetype:{
 			pjnameColor:"#21a2db",//应用名颜色
@@ -15,10 +15,9 @@ define({
 		},//个性定制专属的应用名颜色和主导航选中颜色
 		distclass:["navbar", "navbar-fixed-top", "headernav"],//默认一定要用的class
 		navli_j:[
-			{name:"评价信息",attrcont:"href='index.html'",isactive:true},
-			{name:"数据监控",attrcont:"href='index-dm.html'",isactive:false},
-			{name:"数据分析",attrcont:"href='index-da.html'",isactive:false},
-			{name:"成长档案袋",attrcont:"href='index-grow.html'",isactive:false},
+			{name:"首页",attrcont:"href='01index.html'",isactive:true},
+			{name:"全部课程",attrcont:"href=''",isactive:false},
+			{name:"课程管理",attrcont:"href=''",isactive:false},
 		],//主导航条
 		
 		morebtn:fasle,//是否显示最左汉堡包菜单建以及是否执行更多操作
@@ -57,7 +56,7 @@ define({
 		
 		isinfo:true,//是否支持登录显示个人信息
 		tea_info:{"name":"张晓明","isphoto":false,"photo":"images/tx01.png"},//个人信息
-		otherli:[["切换身份","href='default_html/switch_user.html'"],["账户设置","href='default_html/account_settings.html'"],["个人设置","href='#'"],["退出","href='default_html/login.html'"]],//设置菜单
+		otherli:[["退出","href='default_html/login.html'"]],//设置菜单
 
 		isnews:true,//是否显示信息铃铛
 		newsimgsrc:"images/appicon/",//应用图标的来源路径

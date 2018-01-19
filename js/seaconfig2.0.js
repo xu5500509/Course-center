@@ -50,10 +50,9 @@ seajs.config({
 
 var opt={
 	navli_j:[
-			{name:"评价信息",attrcont:"href='index.html'",isactive:false},
-			{name:"数据监控",attrcont:"href='index-dm.html'",isactive:false},
-			{name:"数据分析",attrcont:"href='index-da.html'",isactive:false},
-			{name:"成长档案袋",attrcont:"href='index-grow.html'",isactive:false},
+			{name:"首页",attrcont:"href='01index.html'",isactive:false},
+			{name:"全部课程",attrcont:"href=''",isactive:false},
+			{name:"课程管理",attrcont:"href=''",isactive:false},
 	]
 }
 
