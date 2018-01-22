@@ -23,11 +23,11 @@
 
 <body class="qkybody">
 <div id="qkynav"></div>
-<div class="container-fluid">
-  <div class="location pl10 pr10">
-    <ul class="bg_white pa5">
-      <li><a href="#g01">高一拓展课程</a></li>
-      <li><a href="#g02">高一综合艺术课程</a></li>
+<div class="container-fluid po_r" data-spy="scroll">
+  <div class="location pl10 pr10" id="myScrollspy">
+    <ul class="nav nav-pills nav-stacked bg_white pa5">
+      <li><a href="#section1">高一拓展课程</a></li>
+      <li><a href="#section2">高一综合艺术课程</a></li>
       <ol><a href="#" class="text-center">top</a></ol>
     </ul>
   </div>
@@ -62,7 +62,7 @@
     <div class="tab-content tabs">
       <div role="tabpanel" class="tab-pane fade in active" id="Section1">
         <div class="container-xl">
-          <h3 class="text-center pa15 mb15" id="g01"><span class="idx-tit po_r co_blue">高一拓展课程</span></h3>
+          <h3 class="text-center pa15 mb15" id="section1"><span class="idx-tit po_r co_blue">高一拓展课程</span></h3>
           <div class="row idx-list">
             <div class="col-sm-2_4">
               <div class="thumbnail idx-thumbnail pa0 radius-4">
@@ -257,7 +257,7 @@
             
           </div>
           
-          <h3 class="text-center pa15 mb15" id="g02"><span class="idx-tit po_r co_blue">高一综合艺术课程</span></h3>
+          <h3 class="text-center pa15 mb15" id="section2"><span class="idx-tit po_r co_blue">高一综合艺术课程</span></h3>
           <div class="row idx-list">
             <div class="col-sm-2_4">
               <div class="thumbnail idx-thumbnail pa0 radius-4">
@@ -433,23 +433,8 @@
      seajs.use(["jq","bs","nav"],function(j,b,n){
 		 opt.navli_j[0].isactive=true;
 		 $("#qkynav").qkynav(opt);	 
-	 $(".menu_l .menu-c").on("click",function(){
-		$(".menu_l .menu-c").removeClass("active"); 
-		$(this).addClass("active"); 
-	 });
 
 	});
-var opt={
-	navli_j:[
-			{name:"首页",attrcont:"href='01index.html'",isactive:false},
-			{name:"全部课程",attrcont:"href=''",isactive:true},
-			{name:"课程管理",attrcont:"href=''",isactive:false},
-	]
-}
-
-for(var i=0;i<opt.navli_j.length;i++){
-	opt.navli_j[i].isactive=false;
-}
-    </script>
+</script>
 </body>
 </html>

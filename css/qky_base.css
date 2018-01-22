@@ -65,7 +65,7 @@ body{font-family: Microsoft YaHei,"Hiragino Sans GB W3", Helvetica, Arial, sans-
 
 /*主色调定义*/
 a {color:#27b0f2;}
-a:hover,a:focus {color:#0288d1;}
+a:hover,a:focus {color:#0288d1; text-decoration:none;}
 
 .mian_background{ background:#27b0f2}/*主色调*/
 .assist_background{ background:#72D572}/*辅色调*/
@@ -648,4 +648,7 @@ ul,li,ol{ padding:0; margin:0; list-style:none;}
 .location ul{ border-radius:0 0 4px 4px;}
 .location ul a{ padding:7px 10px; display:block; margin-bottom:5px; line-height:16px;}
 .location ul li a{ background:#f1f5f7; color:#666;}
+.location ul li a:hover{ background:#dfedf4;}
+.location ul li a.active{ background:#199ed8; color:#fff;}
 .location ul ol a{ background:#d9d9d9; color:#fff;}
+.location ul ol a:hover{ background:#bbb;}
