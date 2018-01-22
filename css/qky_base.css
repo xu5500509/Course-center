@@ -566,7 +566,7 @@ padding:10px;}
 .gzdist_mould.table >thead >tr >th.one{ border-left:none;}
 .gzdist_mould.table >thead >tr >th.bh{ height:25px; line-height:25px; }
 .gzdist_mould.table>tbody >tr >td{ text-align:center;}
-ul,li{ padding:0; margin:0; list-style:none;}
+ul,li,ol{ padding:0; margin:0; list-style:none;}
 
 .table-responsive._sm{  width: 100%;  overflow-y: hidden; -ms-overflow-style: -ms-autohiding-scrollbar;}
 .table-responsive._sm .table>tbody>tr>td{ min-width:90px;}
@@ -642,3 +642,10 @@ ul,li{ padding:0; margin:0; list-style:none;}
 .foot-top { border-bottom:1px solid #18485d;}
 .foot-top a{color:#51798a;}
 .foot-top .fr a:hover{ text-decoration:none;}
+
+/*侧边定位*/
+.location{ width:136px; height:auto; background:url(../images/location.png) center top no-repeat; padding-top:42px; position:fixed; right:20px; bottom:50px; z-index:1002;}
+.location ul{ border-radius:0 0 4px 4px;}
+.location ul a{ padding:7px 10px; display:block; margin-bottom:5px; line-height:16px;}
+.location ul li a{ background:#f1f5f7; color:#666;}
+.location ul ol a{ background:#d9d9d9; color:#fff;}
