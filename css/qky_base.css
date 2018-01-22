@@ -4,7 +4,7 @@
  */
 /**********1.整体框架基础**********/
 body{font-family: Microsoft YaHei,"Hiragino Sans GB W3", Helvetica, Arial, sans-serif;}
-.qkybody{ padding-top:50px; background:#f1f5f7; position:absolute; top:0; left:0; min-height:100%; width:100%; }
+.qkybody{ padding-top:50px; padding-bottom:190px; background:#f1f5f7; position:absolute; top:0; left:0; min-height:100%; width:100%; }
 .qkybody.app{ padding:94px 0 50px;}
 .qkyff_fluid{ background:#fff; width:100%;}
 .navbar-fixed-top {border: 0;}
@@ -41,7 +41,7 @@ body{font-family: Microsoft YaHei,"Hiragino Sans GB W3", Helvetica, Arial, sans-
 /*底部规范*/
 .footer{ position: absolute; bottom:0; padding:15px 0; text-align:center; left:0; width:100%; background:none; color:#737373;z-index: 1001;}
 .footer.open{ display:block;}
-.footer.inverse{ background:#515151;}
+.footer.inverse{ background:#0b384c; color:#51798a;}
 .footer.default{ background:#fff; }
 
 /*图标字体-导航部分*/
@@ -625,6 +625,8 @@ ul,li{ padding:0; margin:0; list-style:none;}
 .idx-intro{ border:1px dashed #a7d2fe;}
 .idx-intro.po_r h3.po_ab{ left:50%; margin-left:-220px; top:-15px;}
 /*首页列表*/
+.idx-list{ padding-left:7px; padding-right:7px; background:url(../images/idx-cellbg.png) right bottom no-repeat;}
+.idx-list .col-sm-2_4{ padding-left:8px; padding-right:8px;}
 .thumbnail{ border:none;}
 .thumbnail.idx-thumbnail> img, .thumbnail.idx-thumbnail a > img{ border-radius:4px 4px 0 0;}
 .thumbnail.idx-thumbnail a:hover{ text-decoration:none;}
@@ -632,3 +634,11 @@ ul,li{ padding:0; margin:0; list-style:none;}
 .txt-x1{white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
 .thumbnail.idx-thumbnail .txt-x2{ height:40px; width:100%;}
 .thumbnail.idx-thumbnail .txt-x1{ height:20px; width:100%;}
+.div_more{ background:#f4f8fa; padding:10px 0;}
+.div_more:hover{ background:#fff; color:#199ed8 !important; text-decoration:none;}
+/*ban*/
+.ban-btm,.ban-btm img{ width:100%; height:auto;}
+/*footer*/
+.foot-top { border-bottom:1px solid #18485d;}
+.foot-top a{color:#51798a;}
+.foot-top .fr a:hover{ text-decoration:none;}
