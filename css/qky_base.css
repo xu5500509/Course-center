@@ -624,6 +624,8 @@ ul,li,ol{ padding:0; margin:0; list-style:none;}
 .idx-banner{ height:280px;}
 .idx-intro{ border:1px dashed #a7d2fe;}
 .idx-intro.po_r h3.po_ab{ left:50%; margin-left:-220px; top:-15px;}
+.idx-banner.po_r .alert-warning.po_ab{ background:rgba(252, 248, 227,0.9);}
+.idx-banner.po_r .alert.po_ab{ border-radius:0; padding:10px 30px;}
 /*首页列表*/
 .idx-list{ padding-left:7px; padding-right:7px; background:url(../images/idx-cellbg.png) right bottom no-repeat;}
 .idx-list .col-sm-2_4{ padding-left:8px; padding-right:8px;}
