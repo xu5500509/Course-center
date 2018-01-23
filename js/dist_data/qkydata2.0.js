@@ -56,7 +56,7 @@ define({
 		
 		isinfo:true,//是否支持登录显示个人信息
 		tea_info:{"name":"张晓明","isphoto":false,"photo":"images/tx01.png"},//个人信息
-		otherli:[["切换身份","href='default_html/switch_user.html'"],["数据设置","href='00set-term.html'"],["账户设置","href='default_html/account_settings.html'"],["个人设置","href='#'"],["退出","href='default_html/login.html'"]],//设置菜单
+		otherli:[["退出","href='default_html/login.html'"]],//设置菜单
 
 		isnews:true,//是否显示信息铃铛
 		newsimgsrc:"images/appicon/",//应用图标的来源路径
