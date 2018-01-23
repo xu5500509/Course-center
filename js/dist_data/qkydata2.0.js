@@ -15,9 +15,9 @@ define({
 		},//个性定制专属的应用名颜色和主导航选中颜色
 		distclass:["navbar", "navbar-fixed-top", "headernav"],//默认一定要用的class
 		navli_j:[
-			{name:"体系管理",attrcont:"href='01evalua-sys.html'",isactive:false},
-			{name:"班级评价",attrcont:"href='02eva-will.html'",isactive:false},
-			{name:"评价统计",attrcont:"href='01browse-ind.html'",isactive:false},
+			{name:"首页",attrcont:"href='01index.html'",isactive:false},
+			{name:"全部课程",attrcont:"href='02all-courses.html'",isactive:false},
+			{name:"课程管理",attrcont:"href='03course-manage.html'",isactive:false},
 		],//主导航条
 		
 		morebtn:false,//是否显示最左汉堡包菜单建已经是否执行更多操作
