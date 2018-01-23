@@ -644,11 +644,12 @@ ul,li,ol{ padding:0; margin:0; list-style:none;}
 .foot-top .fr a:hover{ text-decoration:none;}
 
 /*侧边定位*/
-.location{ width:136px; height:auto; background:url(../images/location.png) center top no-repeat; padding-top:42px; position:fixed; right:20px; bottom:50px; z-index:1002;}
+.location{ width:136px; height:auto; background:url(../images/location.png) center top no-repeat; padding-top:42px; position:fixed; right:20px; bottom:60px; z-index:1002;}
 .location ul{ border-radius:0 0 4px 4px;}
+.location ul.nav-pills > li{ float:none;}
 .location ul a{ padding:7px 10px; display:block; margin-bottom:5px; line-height:16px;}
 .location ul li a{ background:#f1f5f7; color:#666;}
 .location ul li a:hover{ background:#dfedf4;}
-.location ul li a.active{ background:#199ed8; color:#fff;}
+.location ul li.active a{ background:#199ed8; color:#fff;}
 .location ul ol a{ background:#d9d9d9; color:#fff;}
 .location ul ol a:hover{ background:#bbb;}
