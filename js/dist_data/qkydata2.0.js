@@ -7,7 +7,7 @@ define({
 	navdata:{/*导航数据*/
 	    htmlsrc:"../mould_html/qkynav2.0.html",//头部模板获取异步地址
 		logosrc:"../images/nav_logo/qky-logo.png",//logo来源路径
-		pjname:"班级评价",//应用名
+		pjname:"课程中心",//应用名
 		theme:"navbar-default",//主题
 		themetype:{
 			pjnameColor:"#21a2db",//应用名颜色
