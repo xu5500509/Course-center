@@ -37,6 +37,9 @@
 .radius-4{ border-radius:4px;}
 .radius-18{ border-radius:18px;}
 .radius-circle{ border-radius:50%;}
+.z-index1{z-index:1;}
+.z-index2{z-index:2;}
+.z-index3{z-index:3;}
 
 .co_a3{ color:#a3a3a3!important;}
 .co_93{ color:#939393!important;}
@@ -47,6 +50,7 @@
 .co_43{ color:#434343!important;}
 .co_33{ color:#333333!important;}
 .co_blue{ color:#199ed8!important;}
+.co_org{ color:#ff8a00!important;}
 .bg_white{ background-color:#fff !important;}
 
 .fz_we{ font-weight:bold!important;}
@@ -85,6 +89,7 @@
 .mb0{ margin-bottom:0px!important;}
 .mb0{ margin-bottom:0px!important;}
 .mb1{ margin-bottom:1px!important;}
+.mb2{ margin-bottom:2px!important;}
 .mb5{ margin-bottom:5px!important;}
 .mb8{ margin-bottom:8px!important;}
 .mb10{ margin-bottom:10px!important;}
@@ -111,6 +116,7 @@
 
 
 .pt0{ padding-top:0px!important;}
+.pt3{ padding-top:3px!important;}
 .pt5{ padding-top:5px!important;}
 .pt9{ padding-top:9px!important;}
 .pt10{ padding-top:10px!important;}
@@ -118,6 +124,7 @@
 .pt20{ padding-top:20px!important;}
 .pt30{ padding-top:30px!important;}
 .pb0{ padding-bottom:0px!important;}
+.pb3{ padding-bottom:3px!important;}
 .pb5{ padding-bottom:5px!important;}
 .pb10{ padding-bottom:10px!important;}
 .pb15{ padding-bottom:15px!important;}

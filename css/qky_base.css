@@ -307,8 +307,10 @@ ul.error_tips li{ padding:4px 0 ; margin:0;}
 .form-control {height:30px;padding:5px 10px;}
 .help-block{ font-size:12px; }
 .form-control[readonly]{cursor:default;}
-/*表单校验样式覆盖*/
+/*表单样式覆盖*/
 .form-control-feedback{ height:32px; line-height:32px; width:auto;min-width: 30px;}
+.div-srh .icon-sousuo3{ cursor:pointer;}
+.div-srh .icon-sousuo3:hover{ background:#199ed8; border-color:#199ed8; color:#fff;}
 
 /*下拉组改装*/
 .qkydropdown{ height:30px;}
@@ -646,7 +648,7 @@ ul,li,ol{ padding:0; margin:0; list-style:none;}
 .foot-top .fr a:hover{ text-decoration:none;}
 
 /*侧边定位*/
-.location{ width:136px; height:auto; background:url(../images/location.png) center top no-repeat; padding-top:42px; position:fixed; right:20px; bottom:60px; z-index:1002; padding-left:9px; padding-right:9px;}
+.location{ width:136px; height:auto; background:url(../images/location.png) center top no-repeat; padding-top:42px; position:fixed; right:15px; bottom:60px; z-index:1002; padding-left:9px; padding-right:9px;}
 .location ul{ border-radius:0 0 4px 4px; padding:5px 5px;}
 .location ul.nav-pills > li{ float:none;}
 .location ul a{ padding:7px 10px; display:block; margin-bottom:5px; line-height:16px;}
@@ -655,3 +657,10 @@ ul,li,ol{ padding:0; margin:0; list-style:none;}
 .location ul li.active a{ background:#199ed8; color:#fff;}
 .location ul ol a{ background:#d9d9d9; color:#fff;}
 .location ul ol a:hover{ background:#bbb;}
+
+/*全部课程*/
+/*筛选*/
+.div-sel_l{ min-width:80px;}
+.div-sel .a-sel{ min-width:80px;display:inline-block;}
+.div-sel .a-sel a:hover,.div-sel .a-sel .iblock:hover{ background:#dfedf4;}
+.div-sel .a-sel.on a,.div-sel .a-sel.on .iblock{ background:#199ed8; color:#fff !important;border-radius:2px;}
