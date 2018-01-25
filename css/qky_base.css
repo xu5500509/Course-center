@@ -9,7 +9,7 @@ body{font-family: Microsoft YaHei,"Hiragino Sans GB W3", Helvetica, Arial, sans-
 .qkyff_fluid{ background:#fff; width:100%;}
 .navbar-fixed-top {border: 0;}
 .areabody{background:#eaeaea;position:relative; left: 0; top: 0; width: 100%; height: 100%;word-break: break-all;}
-.qkycadr{ background:#fff; border:1px solid #d8d8d8;}
+a:focus,button:focus{outline:none;}
 
 /*整体宽度档位提供*/
 .container-md,.container-l,.container-xl,.container-p90,.container-p80,.container-p60{
@@ -284,18 +284,17 @@ ul.error_tips li{ padding:4px 0 ; margin:0;}
  z-index:55555; margin:-60px 0 0 -30px; display:none;}
   
 /**********4.组件改装**********/
-
 /*按钮改装*/
 .btn{ padding:4px 15px;}
 .btn-xl, .btn-group-xl > .btn {padding:16px 20px;font-size:20px;line-height:1.33;border-radius: 6px;}
 .btn-group-lg > .btn {padding:5px 15px;}
-.btn-lg{padding: 10px 16px;}
+.btn.btn-lg{padding: 10px 16px;font-size: 18px !important; max-height:46px !important;}
 .btn-sm, .btn-group-sm > .btn {padding:4px 10px;line-height: 1.3;}
 .btn-xs, .btn-group-xs > .btn {padding:1px 5px;line-height: 1.35;}
 .btn.qkybtn{min-width:80px; height:30px; border-radius:3px; }
 .auto{ min-width:auto;}
-.btn-primary.app{ color:#fff; border-color:#27b0f2; background-color:#27b0f2;}
-.btn-primary.app:hover,.btn-primary.app:focus{ background-color:#27b0f2; border-color:#27b0f2; color:#fff;}
+.btn-primary{ color:#fff; border-color:#21a2db; background-color:#21a2db;}
+.btn-primary:hover,.btn-primary:focus{ background-color:#27b0f2; border-color:#27b0f2; color:#fff;}
 .btn-onlytxt{ border:0; color:#333; font-weight:normal; background:none; padding:auto}
 .btn-onlytxt:hover{ color:#737373; text-decoration:inherit;}
 .btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled.focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary.focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {background-color: #0288d1;border-color: #0288d1;color:#fff;}
@@ -304,7 +303,7 @@ ul.error_tips li{ padding:4px 0 ; margin:0;}
 .btn-default.add-a:hover,.btn-default.add-a:hover i{ background:#fff; color:#0288d1;border-color: #0288d1;}
 .modal-footer .btn + .btn{ margin-left:20px;}
 /*表单改装*/
-.form-control {height:30px;padding:5px 10px;}
+.form-control {height:30px;padding:5px 10px 5px 10px;}
 .help-block{ font-size:12px; }
 .form-control[readonly]{cursor:default;}
 /*表单样式覆盖*/
@@ -315,8 +314,8 @@ ul.error_tips li{ padding:4px 0 ; margin:0;}
 /*下拉组改装*/
 .qkydropdown{ height:30px;}
 .qkydropdown .btn{ width:100%; text-align:left; position:relative; height:30px; padding:4px 30px 4px 5px; vertical-align: inherit;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
-.qkydropdown .btn .icon_area{ position:absolute; right:6px; top:8px; border:0; width:14px; height:14px; text-align:center; line-height:14px; color:#333;}
-.qkydropdown.open .btn .icon_area:before{content: "\e600";}
+.qkydropdown .btn .iconfont{ position:absolute; right:6px; top:8px; border:0; width:14px; height:14px; text-align:center; line-height:14px; color:#333;}
+.qkydropdown.open .btn .iconfont:before{content: "\e63d";}
 .qkydropdown .dropdown-menu{ width:100%; max-height:440px; overflow-y:auto;}
 .maxh{ max-height:200px; overflow-y:auto;}
 .dropdown-menu > li > a{ padding-left:10px; padding-right:10px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
@@ -340,16 +339,17 @@ ul.error_tips li{ padding:4px 0 ; margin:0;}
 
 /*复选改装*/
 .checkbox label{line-height:30px; height:30px;}
-a.checkbox_a{display:block; width:14px; height:14px; border:1px solid #dadada; border-radius:4px;background:#fff; line-height:13px; text-align:center; text-decoration: inherit; margin-right:5px; margin-top:3px;}
+a.checkbox_a{display:block; width:14px; height:14px; border:1px solid #ccc; border-radius:4px;background:#fff; line-height:13px; text-align:center; text-decoration: inherit; margin-right:5px; margin-top:3px;}
 .checkbox label a.checkbox_a{ margin-top:8px;}
 .checkbox_a i{ color:#fff;}
 .select a.checkbox_a{background:#27b0f2; border:1px solid #27b0f2;}
-.disabled a.checkbox_a{background:#ffffff; border:1px solid #dadada;}
+.disabled a.checkbox_a{background:#f0f0f0; border:1px solid #dadada;}
+.disabled a.checkbox_a i{ color:#f0f0f0;}
 .disabled.select a.checkbox_a{background:#27b0f2; border:1px solid #27b0f2; opacity:0.4;}
 .error a.checkbox_a{background:#ffffff; border:1px solid #f0485f;}
 .error.select a.checkbox_a{background:#f0485f; border:1px solid #f0485f;}
 .news_rightmian .select a.checkbox_a{background:#27b0f2; border:1px solid #27b0f2;}
-
+.checkbox-qky.disabled { pointer-events: none; cursor: not-allowed; filter: alpha(opacity=65); -webkit-box-shadow: none; box-shadow: none; opacity: .65; }
 /*按钮表格组改装*/
 .td_mc{ text-align:center; vertical-align:middle !important;}
 .table_btn{ color:#333; text-decoration:inherit; cursor:pointer;}
@@ -358,8 +358,8 @@ a.checkbox_a{display:block; width:14px; height:14px; border:1px solid #dadada; b
 .table_card a{ color:#737373; cursor:pointer; text-decoration:inherit;}
 .table_card a:hover{ color:#333;}
 .table{ margin-bottom:0;}
-.table>thead >tr >th{ padding:10px 20px; background:#f3f3f3; font-weight:normal; color:#737373; border-bottom:1px solid #f5f5f5;}
-.table>tbody >tr >td,.table >tbody >tr >th{ padding:15px 20px; border-top:0;  color:#333;}
+.table>thead >tr >th{ padding:10px 15px; background:#f3f3f3; font-weight:normal; color:#737373; border-bottom:1px solid #f5f5f5; vertical-align:middle;}
+.table>tbody >tr >td,.table >tbody >tr >th{ padding:15px; border-top:0;  color:#333;}
 .table.bor_b>tbody >tr >td,.table.bor_b>tbody >tr >th{ border-bottom:1px  solid #dfdfdf; border-top:none; vertical-align:middle;}
 .table>thead >tr >th.media-middle,.table>tbody >tr >th.media-middle {vertical-align: middle;}
 .table>tbody >tr{background:#fff;}
@@ -430,11 +430,15 @@ padding:10px;}
 @media (min-width: 768px) {
   .modal-dialog .modal-body{min-height:234px;}
   .modal-sm {width:480px;}
-  .modal-xs {width:300px;}
+  .modal-xs {width:300px; margin-top:180px;}
+  .modal-xs .modal-body{min-height:164px;}
   .modal-sm .modal-body{min-height:164px;}
+  .modal-md{width:680px;}
+  .modal-lg{width:750px;}
 }
 @media (min-width: 992px) {
   .modal-lg .modal-body{min-height:404px;}
+  .modal-lg{width:900px;}
 }
 .modal-footer{ text-align:center; border-top:none;}
 .modal_auto{ min-height:auto !important;}
@@ -572,6 +576,7 @@ ul,li,ol{ padding:0; margin:0; list-style:none;}
 
 .table-responsive._sm{  width: 100%;  overflow-y: hidden; -ms-overflow-style: -ms-autohiding-scrollbar;}
 .table-responsive._sm .table>tbody>tr>td{ min-width:90px;}
+.table-responsive._sm .table>tbody>tr>td.td-xs{ min-width:20px;}
 .table-responsive._sm .table>tbody>tr>td.big_mw{ min-width:180px;}
 
 /*tab切换样式覆盖*/
@@ -660,7 +665,16 @@ ul,li,ol{ padding:0; margin:0; list-style:none;}
 
 /*全部课程*/
 /*筛选*/
-.div-sel_l{ min-width:80px;}
+.div-sel_l{ min-width:88px;}
 .div-sel .a-sel{ min-width:80px;display:inline-block;}
 .div-sel .a-sel a:hover,.div-sel .a-sel .iblock:hover{ background:#dfedf4;}
 .div-sel .a-sel.on a,.div-sel .a-sel.on .iblock{ background:#199ed8; color:#fff !important;border-radius:2px;}
+.div-set_l{ min-width:120px;}
+/*首页设置*/
+.img-preview{ background-size:100% auto; background-position: center center; background-repeat:no-repeat; height:150px;}
+.up-div.po_r{}
+.up-div.po_r img{ width:100%; height:auto;}
+.up-div.po_r .po_ab.up-img{ top:auto; bottom:0; width:100%; height:30px;}
+.up-div.po_r .po_ab.up-img .btn{ width:100%; background:rgba(0,0,0,0.6);}
+.tcher-name.alert{ height:24px; margin:2px; padding:0 20px 0 5px; display:inline-block;}
+.tcher-name.alert .close{opacity:1;}
