@@ -25,7 +25,7 @@ a:focus,button:focus{outline:none;}
 .container {max-width:1080px;}
 .container-md{max-width:1200px;}
 .container-l{max-width:1366px;}
-.container-xl{max-width:1600px;}
+.container-xl{max-width:1660px;}
 .container-xl{min-width:800px;}
 
 /*栅格系统*/
@@ -86,7 +86,7 @@ a:hover,a:focus {color:#0288d1; text-decoration:none;}
 .error_color{color:#F0485F!important; }
 
 /*警告颜色覆盖*/
-.text-warning{ color:#faab21;}
+.text-warning{ color:#ff8a00;}
 /*标签及徽章背景色优先级*/
 .label-primary.badge{background-color: #337ab7;}
 .label-success.badge{background-color: #5cb85c;}
@@ -681,3 +681,36 @@ ul,li,ol{ padding:0; margin:0; list-style:none;}
 .tcher-name.alert{ height:24px; margin:2px; padding:0 20px 0 5px; display:inline-block;}
 .tcher-name.alert .close{opacity:1;}
 .bor-all.min-h{ min-height:30px;}
+
+/*课程管理*/
+.mang-side{ background:url(../images/mange-side.jpg) right bottom no-repeat; padding-bottom:110px;}
+.mange-top{ background:url(../images/mange-ban.jpg) repeat-x 0 0; height:89px; width:100%;top:50px !important; z-index:-1;}
+.mange-picl{ width:50%; margin-top:-40px; margin-left:auto; margin-right:auto;}
+.mange-picl img,.mcourse-pic img{ width:100%;}
+.bg_bblue.tit{ border-left:1px solid #fff; border-right:1px solid #fff;}
+.side-menu li a{ color:#666; font-size:16px; padding:2px 15px 2px 50px; display:block; margin:15px 0;}
+.side-menu li a:hover{ color:#27b0f2; padding-left:53px;}
+.side-menu .active a{ border-left:3px solid #199ed8;color:#27b0f2; }
+.side-menu .active a:hover{padding-left:50px;}
+/*main*/
+.mm-ttit{ height:40px;}
+.table-mange{ border-left:1px solid #fff;border-right:1px solid #fff;}
+.table-mange.table > tbody > tr { border-bottom:1px dashed #ccc; }
+.table-mange.table > tbody > tr:nth-child(even){background:#fff;}
+.table-mange.table > tbody > tr > td{ vertical-align:middle;}
+.mcourse-pic{ width:140px; min-width:100px;}
+.mcourse-int{  display:block;}
+@media (min-width: 768px)and (max-width: 1400px){
+	.mcourse-int{ width:300px;}
+}
+@media (min-width: 1401px){
+	.mcourse-int{ width:360px;}
+}
+@media (min-width: 1600px){
+	.mcourse-int{ width:460px;}
+}
+.table-mange.table > tbody > tr > td .breadcrumb > li + li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "|\00a0";
+}

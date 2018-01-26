@@ -53,6 +53,7 @@
 .co_blue{ color:#199ed8!important;}
 .co_org{ color:#ff8a00!important;}
 .bg_white{ background-color:#fff !important;}
+.bg_bblue{ background-color:#f4f7f8 !important;}
 
 .fz_we{ font-weight:bold!important;}
 .fz_nwe{ font-weight:normal!important;}
@@ -125,6 +126,7 @@
 .pt15{ padding-top:15px!important;}
 .pt20{ padding-top:20px!important;}
 .pt30{ padding-top:30px!important;}
+.pt40{ padding-top:40px!important;}
 .pb0{ padding-bottom:0px!important;}
 .pb2{ padding-bottom:2px!important;}
 .pb3{ padding-bottom:3px!important;}
@@ -144,11 +146,13 @@
 .pr20{ padding-right:20px!important;}
 .pr60{ padding-right:60px!important;}
 .pa0{ padding:0!important;}
+.pa3{ padding:3px!important;}
 .pa5{ padding:5px!important;}
 .pa10{ padding:10px!important;}
 .pa15{ padding:15px!important;}
 .pa20{ padding:20px!important;}
 /*边线*/
+.bor-ff{ border:1px solid #fff;}
 .bor-lb{ border-left:3px solid #27b0f2;}
 .bor-t{ border-top:1px solid #e7e7e7;}
 .bor-r{ border-right:1px solid #e7e7e7;}
