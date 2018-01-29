@@ -713,3 +713,4 @@ ul,li,ol{ padding:0; margin:0; list-style:none;}
 .cour-labels .label.iblock{ border:1px solid transparent;cursor:pointer;  font-weight:normal;}
 .label-cour.label{ background:#f0f0f0; color:#666;}
 .label-cour.label:hover{ background:#fff; border:1px dashed #199ed8;}
+.label.label-cur{background:#fff; border:1px dashed #199ed8 !important; color:#199ed8;}
