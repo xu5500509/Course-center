@@ -701,7 +701,8 @@ ul,li,ol{ padding:0; margin:0; list-style:none;}
 .mcourse-pic{ width:140px; min-width:100px;}
 .mcourse-int{  display:block;}
 @media (min-width: 768px)and (max-width: 1400px){
-	.mcourse-int{ width:300px;}
+	.mcourse-int{ width:252px;}
+	.table-mange.table > tbody > tr > td .breadcrumb > li + li:before { padding: 0 1px !important; }
 }
 @media (min-width: 1401px){
 	.mcourse-int{ width:360px;}
@@ -710,6 +711,8 @@ ul,li,ol{ padding:0; margin:0; list-style:none;}
 	.mcourse-int{ width:460px;}
 }
 .table-mange.table > tbody > tr > td .breadcrumb > li + li:before { padding: 0 5px; color: #ccc; content: "|\00a0";}
+.table-mange.table > tbody > tr > td .p-date{ min-width:80px;}
+.table-mange.table > tbody > tr > td .iconfont+.iconfont{ margin-left:10px;}
 .cour-labels .label.iblock{ border:1px solid transparent;cursor:pointer;  font-weight:normal;}
 .label-cour.label{ background:#f0f0f0; color:#666;}
 .label-cour.label:hover{ background:#fff; border:1px dashed #199ed8;}
