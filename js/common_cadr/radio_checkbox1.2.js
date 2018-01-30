@@ -6,6 +6,7 @@
 */
 
 define(function(require,exports) {
+    require('../plug-in/select2/4.0.5/select2.full.js');
 	//外接单选按钮事件
 	exports.radio_run=function(fun){
 		$(".radio-qky").on("click",function(){
@@ -49,7 +50,14 @@ define(function(require,exports) {
 		
 	}
 	//exports.rach_run();
-	
+
+    exports.initSelect2=function(){
+        $('#select').select2({
+            placeholder: "输入教师名称",
+            language: "zh-CN"
+        });
+    }
+
 	function child_in_parent(id){
 		var key=id.attr("lj");
 		var childnumber=$(".checkbox-qky.child[lj="+key+"]").length;

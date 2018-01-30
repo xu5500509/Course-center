@@ -13,6 +13,7 @@
 <link href="../iconfont/c-center/iconfont.css" rel="stylesheet">
 <link href="../css/qky_base.css" rel="stylesheet">
 <link href="../css/common.css" rel="stylesheet">
+<link href="../js/plug-in/select2/4.0.5/select2.css" rel="stylesheet">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -825,16 +826,20 @@
                   <label class="col-sm-2 text-right pt5"><strong class="error_color">*</strong>授课老师</label>
                   <div class="col-sm-10">
                     <div class="col-sm-11 pa0">
-                    <div class=" bor-all radius-4 min-h">
-                      <div class="alert alert-warning alert-dismissible fade in tcher-name bg_white" role="alert">
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true" class="error_color mr5 fz_nwe">×</span></button>
-                        高俊熙
-                      </div>
-                      <div class="alert alert-warning alert-dismissible fade in tcher-name bg_white" role="alert">
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true" class="error_color mr5 fz_nwe">×</span></button>
-                        高俊熙
-                      </div>
-                    </div>
+                    <!--<div class=" bor-all radius-4 min-h">-->
+                      <!--<div class="alert alert-warning alert-dismissible fade in tcher-name bg_white" role="alert">-->
+                        <!--<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true" class="error_color mr5 fz_nwe">×</span></button>-->
+                        <!--高俊熙-->
+                      <!--</div>-->
+                      <!--<div class="alert alert-warning alert-dismissible fade in tcher-name bg_white" role="alert">-->
+                        <!--<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true" class="error_color mr5 fz_nwe">×</span></button>-->
+                        <!--高俊熙-->
+                      <!--</div>-->
+                    <!--</div>-->
+                      <select class="bor-all radius-4 min-h" id="select" multiple="multiple">
+                        <option>高俊熙1</option>
+                        <option>高俊熙2</option>
+                      </select>
                     </div>
                   </div>
                 </div>
@@ -905,6 +910,7 @@
 		 opt.navli_j[0].isactive=true;
 		 $("#qkynav").qkynav(opt);	 
          rach.rach_run(function(t){},function(t){});
+         rach.initSelect2();
 	});
 </script>
 </body>
